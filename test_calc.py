@@ -38,6 +38,9 @@ class TestCalc(unittest.TestCase):
         with self.assertRaises(ValueError):
             calc.divide(self.val1, self.val2)
 
+    def test_multiply(self):
+        self.assertEqual(calc.multiply(6, 10), 60)
+
 
 if __name__ == '__main__':
     unittest.main()
