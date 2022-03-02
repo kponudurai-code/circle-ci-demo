@@ -39,7 +39,7 @@ class TestCalc(unittest.TestCase):
             calc.divide(self.val1, self.val2)
 
     def test_multiply(self):
-        self.assertEqual(calc.multiply(6, 10), 60)
+        self.assertEqual(calc.multiply(7, 10), 70)
 
 
 if __name__ == '__main__':
