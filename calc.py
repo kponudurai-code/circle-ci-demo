@@ -20,4 +20,4 @@ def divide(x, y):
 if __name__ == '__main__':
     add(5, 10)
     substract(8, 2)
-    divide(10, 0)
+    divide(10, 2)
