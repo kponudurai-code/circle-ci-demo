@@ -1,0 +1,5 @@
+# Enviroments
+.venv
+.venv/
+__pycache__
+README.txt
